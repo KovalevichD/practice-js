@@ -7,7 +7,7 @@
 export function maxWithRest(...args: number[]): number {
 	return Math.max.apply(null, args);
 }
-// еще можно решить эту задачу с помощью arguments, но я не знаю как задать правильно тип для arguments в Ts, поэтому выдаёт ошибку. Написанный на Js код - работает
+// еще можно решить эту задачу с помощью arguments
 
 /*
 export function maxWithRest(): number {

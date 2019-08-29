@@ -36,8 +36,6 @@ const urls: string[] = [
 	'http://test9.ru',
 ];
 
-// Я не писал тесты к этой задаче потому, что не знаю как писать с промисами:) Поэтому не знаю, работает ли этот код.
-// Посмотри, пожайлуста, на решение. В правильном ли я направлении думаю?
 function mapLimit(arr: any[], limit: number) {
 	const arrOfSubarrays: any[] = [];
 	const arrResults: any[] = [];

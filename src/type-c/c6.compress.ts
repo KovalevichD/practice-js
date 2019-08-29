@@ -8,7 +8,6 @@
 
 	compress([1,2,3,4,6,7,11,12,16]) //  1-4, 6-7, 11-12, 16
 */
-// Я вообще не уверен, нормально ли такое решение?)
 
 export function compress(arr: number[]): string {
 	let str = arr.length !== 0 ? arr[0] + '' : '';

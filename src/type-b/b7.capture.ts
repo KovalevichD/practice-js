@@ -5,11 +5,11 @@
  * Задача такая, допустим на странице есть 100 контейнеров - тег <div />,
  * у каждого такого контейнера есть класс '.btn-secondary',
  * у каждой есть уникальный id, нужно при клике на контейнер вывести в консоль id
- 
- 
-Я бы повесил обработчик на родителя всех элеметнов <div>. В моём случае, родителем будет <body>. Мог бы быть любой другой tag, зависит от разметки.
+ */
 
-const body = document.querySelector('body');
+//Я бы повесил обработчик на родителя всех элеметнов <div>. В моём случае, родителем будет <body>. Мог бы быть любой другой tag, зависит от разметки.
+
+/*const body = document.querySelector('body');
 
 body.addEventListener('click', function (event) {
     if (event.target.classList.contains('btn-secondary')) {
@@ -17,4 +17,4 @@ body.addEventListener('click', function (event) {
         console.log(idButton);
     }
 }, false)
- */
+*/
